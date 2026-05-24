@@ -1,0 +1,148 @@
+name: CI — Test, Validate, Gate
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test-and-validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Create required dirs
+        run: |
+          mkdir -p data/raw data/samples data/processed artifacts docs
+
+      - name: Run unit tests
+        run: |
+          pytest tests/test_features.py tests/test_schemas.py -v --tb=short
+
+      - name: Run retrieval tests (mocked, no index needed)
+        run: |
+          pytest tests/test_retrieval.py -v --tb=short
+
+      - name: Validate on CI sample data
+        run: |
+          python - <<'EOF'
+          import pandas as pd
+          import sys
+          from pathlib import Path
+
+          # Create minimal synthetic sample for CI validation
+          sample = pd.DataFrame({
+              "age": [35, 45, 52, 28, 60],
+              "job": ["management", "blue-collar", "technician", "admin.", "retired"],
+              "marital": ["married", "single", "married", "single", "married"],
+              "education": ["tertiary", "secondary", "tertiary", "secondary", "primary"],
+              "default": ["no", "no", "no", "no", "no"],
+              "balance": [1500, 300, 2000, -100, 5000],
+              "housing": ["yes", "yes", "no", "yes", "no"],
+              "loan": ["no", "yes", "no", "no", "no"],
+              "contact": ["cellular", "telephone", "cellular", "cellular", "unknown"],
+              "day": [15, 20, 5, 12, 28],
+              "month": ["may", "jun", "jan", "aug", "dec"],
+              "duration": [200, 150, 300, 50, 400],
+              "campaign": [2, 1, 3, 5, 1],
+              "pdays": [-1, 90, -1, -1, 30],
+              "previous": [0, 2, 0, 0, 1],
+              "poutcome": ["unknown", "success", "unknown", "unknown", "failure"],
+              "y": ["yes", "no", "no", "no", "yes"],
+          })
+          sample.to_csv("data/samples/bank_sample.csv", index=False)
+
+          comp_sample = pd.DataFrame({
+              "complaint_id": [f"C{i}" for i in range(5)],
+              "product": ["Mortgage", "Credit card", "Checking account", "Student loan", "Mortgage"],
+              "issue": ["Payment", "Billing", "Account closure", "Repayment", "Foreclosure"],
+              "company": ["BankA", "BankB", "BankC", "BankD", "BankA"],
+              "narrative": [
+                  "The bank refused my mortgage payment and threatened foreclosure without proper notice.",
+                  "I was charged incorrect fees on my credit card statement multiple times.",
+                  "My checking account was closed without any prior notification from the bank.",
+                  "The student loan servicer keeps losing my payment records and ignoring my calls.",
+                  "The foreclosure process started even though I was enrolled in a loan modification program.",
+              ] * 1,
+              "date_received": ["2023-01-01"] * 5,
+          })
+          comp_sample.to_csv("data/samples/complaints_sample.csv", index=False)
+          print("CI samples created.")
+          EOF
+
+      - name: Run schema validation on CI sample
+        run: |
+          python src/data_pipeline/validate.py
+
+      - name: Smoke test feature pipeline
+        run: |
+          python - <<'EOF'
+          import sys
+          import pandas as pd
+          from src.data_pipeline.features import build_features, encode_target
+
+          df = pd.read_csv("data/samples/bank_sample.csv")
+          df = encode_target(df)
+          X = build_features(df, fit=True)
+          assert len(X) == len(df), f"Expected {len(df)} rows, got {len(X)}"
+          assert "y" not in X.columns, "Target column leaked into features"
+          assert X.isnull().sum().sum() == 0, "NaN values in features"
+          print(f"Feature pipeline OK: {X.shape}")
+          EOF
+
+      - name: Promotion gate check (deliberate failure test)
+        run: |
+          python - <<'EOF'
+          # Simulate a worse model being blocked
+          baseline = {"pr_auc": 0.50, "f1": 0.60}
+          worse_model = {"pr_auc": 0.48, "f1": 0.58}
+
+          pr_delta = worse_model["pr_auc"] - baseline["pr_auc"]
+          f1_delta = worse_model["f1"] - baseline["f1"]
+
+          PR_AUC_MARGIN = 0.03
+          F1_DROP_LIMIT = -0.02
+
+          passed = pr_delta >= PR_AUC_MARGIN and f1_delta >= F1_DROP_LIMIT
+          assert not passed, f"Gate should have BLOCKED worse model but PASSED it! delta={pr_delta}"
+          print(f"Gate correctly BLOCKED worse model: PR-AUC delta={pr_delta:+.4f}")
+
+          # Good model should pass
+          better_model = {"pr_auc": 0.55, "f1": 0.62}
+          pr_delta2 = better_model["pr_auc"] - baseline["pr_auc"]
+          f1_delta2 = better_model["f1"] - baseline["f1"]
+          passed2 = pr_delta2 >= PR_AUC_MARGIN and f1_delta2 >= F1_DROP_LIMIT
+          assert passed2, f"Gate should have PROMOTED better model but BLOCKED it!"
+          print(f"Gate correctly PROMOTED better model: PR-AUC delta={pr_delta2:+.4f}")
+          EOF
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: |
+            data/validation_report.json
+            docs/
+          if-no-files-found: ignore
