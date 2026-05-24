@@ -1,0 +1,36 @@
+version: "3.9"
+
+services:
+  customer-intelligence:
+    build: .
+    container_name: customer-intel-api
+    ports:
+      - "8000:8000"
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - MLFLOW_TRACKING_URI=./mlruns
+      - SIMILARITY_THRESHOLD=0.35
+      - TOP_K=5
+    volumes:
+      - ./artifacts:/app/artifacts
+      - ./data:/app/data
+      - ./mlruns:/app/mlruns
+      - ./docs:/app/docs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+  mlflow:
+    image: python:3.11-slim
+    container_name: mlflow-server
+    command: >
+      sh -c "pip install mlflow && mlflow ui --host 0.0.0.0 --port 5000 --backend-store-uri /mlruns"
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./mlruns:/mlruns
+    restart: unless-stopped

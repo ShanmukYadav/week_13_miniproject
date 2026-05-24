@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables (never commit this)
+.env
+
+# Data files (too large for git)
+data/raw/
+data/index/
+
+# MLflow runs
+mlruns/
+
+# Monitoring reports
+monitoring/reports/
+
+# Pytest cache
+.pytest_cache/
+
+# Egg info
+*.egg-info/
+
+# VS Code settings
+.vscode/
+
+# Windows junk
+Thumbs.db
+desktop.ini
