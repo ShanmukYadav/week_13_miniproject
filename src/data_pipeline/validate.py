@@ -200,7 +200,7 @@ def run_validation(bank_path: Path, complaints_path: Path) -> dict:
 
     # Save report
     with open(REPORT_PATH, "w") as f:
-        json.dump(report, f, indent=2)
+        json.dump(report, f, indent=2, default=str)
     print(f"\n[validate] Report saved → {REPORT_PATH}")
 
     # Print summary

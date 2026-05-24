@@ -1,0 +1,50 @@
+{
+  "model_version": "v20260524_2305",
+  "model_type": "xgboost",
+  "threshold": 0.69,
+  "feature_columns": [
+    "age",
+    "balance",
+    "day",
+    "duration",
+    "campaign",
+    "previous",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "poutcome",
+    "was_previously_contacted",
+    "recency_bucket",
+    "duration_bucket",
+    "campaign_capped",
+    "age_group",
+    "negative_balance",
+    "double_loan",
+    "month_num",
+    "quarter"
+  ],
+  "metrics": {
+    "roc_auc": 0.9324,
+    "pr_auc": 0.6196,
+    "f1": 0.6376,
+    "precision": 0.5559,
+    "recall": 0.7476,
+    "threshold": 0.69,
+    "run_id": "92cb6f7153304b258229ef9cfd29164b",
+    "confusion_matrix": [
+      [
+        7353,
+        632
+      ],
+      [
+        267,
+        791
+      ]
+    ]
+  },
+  "trained_at": "2026-05-24T23:05:26.744895"
+}

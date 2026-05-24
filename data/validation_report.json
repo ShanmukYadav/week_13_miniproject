@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-05-24T17:30:34.944971",
+  "results": {
+    "bank_schema": {
+      "pass": true,
+      "detail": "Schema valid"
+    },
+    "bank_missing_values": {
+      "pass": true,
+      "detail": "Columns >20% missing: {}"
+    },
+    "rule_1_zero_duration_no_conversion": {
+      "pass": true,
+      "detail": "Contacts with duration=0 and y=yes: 0 (should be 0)"
+    },
+    "rule_2_campaign_at_least_1": {
+      "pass": true,
+      "detail": "Rows with campaign < 1: 0"
+    },
+    "rule_3_age_in_range": {
+      "pass": true,
+      "detail": "Rows with age outside 18-100: 0"
+    },
+    "rule_4_pdays_previous_consistency": {
+      "pass": true,
+      "detail": "Rows where pdays=-1 but previous>0: 0"
+    },
+    "rule_5_target_not_null": {
+      "pass": true,
+      "detail": "Null values in target y: 0"
+    },
+    "rule_6_class_balance_check": {
+      "pass": "True",
+      "detail": "Positive class rate: 11.70% (acceptable: 5%-95%)"
+    },
+    "rule_7_balance_not_corrupted": {
+      "pass": true,
+      "detail": "Max absolute balance: 102127 (threshold: 200000)"
+    },
+    "complaint_rule_1_narrative_not_null": {
+      "pass": true,
+      "detail": "Null narratives: 0"
+    },
+    "complaint_rule_2_narrative_min_length": {
+      "pass": true,
+      "detail": "Narratives < 50 chars: 0"
+    },
+    "complaint_rule_3_unique_ids": {
+      "pass": true,
+      "detail": "Duplicate complaint IDs: 0"
+    },
+    "complaint_rule_4_product_populated": {
+      "pass": true,
+      "detail": "Null product: 0 (0.0%)"
+    },
+    "complaint_rule_5_minimum_rows": {
+      "pass": true,
+      "detail": "Row count: 1000 (minimum: 1000)"
+    }
+  },
+  "overall_pass": true
+}

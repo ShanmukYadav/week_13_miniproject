@@ -1,0 +1,201 @@
+complaint_id,product,issue,company,narrative,company_response,date_received,state
+SYNTH-00522,Student loan,Unauthorized charges,Wells Fargo,Incorrect information appears on my credit report. Case number 522.,Closed with explanation,2024-04-09,PA
+SYNTH-00738,Credit card,Incorrect information,Bank of America,Incorrect information appears on my credit report. Case number 738.,Closed with monetary relief,2024-11-16,PA
+SYNTH-00741,Personal loan,Payment issue,Chase,Incorrect information appears on my credit report. Case number 741.,Closed with explanation,2024-10-09,PA
+SYNTH-00661,Mortgage,Unauthorized charges,Citibank,Incorrect information appears on my credit report. Case number 661.,Closed with monetary relief,2024-02-03,FL
+SYNTH-00412,Checking account,Incorrect information,Bank of America,I have been trying to resolve this issue for months. Case number 412.,Closed with monetary relief,2024-01-04,TX
+SYNTH-00679,Student loan,Loan processing,Bank of America,Incorrect information appears on my credit report. Case number 679.,Closed with explanation,2024-08-12,PA
+SYNTH-00627,Mortgage,Incorrect information,Bank of America,Incorrect information appears on my credit report. Case number 627.,Closed with explanation,2024-10-19,NY
+SYNTH-00514,Personal loan,Managing account,Bank of America,Incorrect information appears on my credit report. Case number 514.,Closed with explanation,2024-02-10,PA
+SYNTH-00860,Student loan,Payment issue,Capital One,I have been trying to resolve this issue for months. Case number 860.,Closed with explanation,2024-08-05,TX
+SYNTH-00137,Mortgage,Managing account,Capital One,They charged me unauthorized fees repeatedly. Case number 137.,Closed with monetary relief,2024-11-23,NY
+SYNTH-00812,Checking account,Managing account,Citibank,I have been trying to resolve this issue for months. Case number 812.,Closed with monetary relief,2024-09-03,FL
+SYNTH-00077,Student loan,Payment issue,Capital One,Incorrect information appears on my credit report. Case number 77.,Closed with explanation,2024-10-13,NY
+SYNTH-00637,Student loan,Managing account,Chase,They charged me unauthorized fees repeatedly. Case number 637.,Closed with monetary relief,2024-10-01,PA
+SYNTH-00974,Personal loan,Incorrect information,Wells Fargo,I have been trying to resolve this issue for months. Case number 974.,Closed with monetary relief,2024-08-28,PA
+SYNTH-00939,Student loan,Payment issue,Wells Fargo,I have been trying to resolve this issue for months. Case number 939.,Closed with explanation,2024-12-24,NY
+SYNTH-00900,Student loan,Payment issue,Bank of America,Incorrect information appears on my credit report. Case number 900.,Closed with monetary relief,2024-06-22,FL
+SYNTH-00281,Personal loan,Payment issue,Chase,Incorrect information appears on my credit report. Case number 281.,Closed with explanation,2024-12-02,PA
+SYNTH-00884,Student loan,Loan processing,Chase,They charged me unauthorized fees repeatedly. Case number 884.,Closed with monetary relief,2024-05-26,CA
+SYNTH-00762,Personal loan,Payment issue,Chase,I have been trying to resolve this issue for months. Case number 762.,Closed with monetary relief,2024-09-14,TX
+SYNTH-00320,Mortgage,Payment issue,Capital One,I have been trying to resolve this issue for months. Case number 320.,Closed with explanation,2024-04-03,CA
+SYNTH-00550,Personal loan,Managing account,Capital One,Incorrect information appears on my credit report. Case number 550.,Closed with explanation,2024-07-27,CA
+SYNTH-00175,Student loan,Payment issue,Bank of America,They charged me unauthorized fees repeatedly. Case number 175.,Closed with monetary relief,2024-06-22,FL
+SYNTH-00372,Mortgage,Payment issue,Wells Fargo,They charged me unauthorized fees repeatedly. Case number 372.,Closed with monetary relief,2024-12-03,NY
+SYNTH-00528,Credit card,Incorrect information,Citibank,They charged me unauthorized fees repeatedly. Case number 528.,Closed with monetary relief,2024-07-13,NY
+SYNTH-00211,Credit card,Loan processing,Bank of America,Incorrect information appears on my credit report. Case number 211.,Closed with monetary relief,2024-09-12,CA
+SYNTH-00236,Mortgage,Unauthorized charges,Chase,They charged me unauthorized fees repeatedly. Case number 236.,Closed with explanation,2024-11-11,FL
+SYNTH-00102,Credit card,Unauthorized charges,Citibank,They charged me unauthorized fees repeatedly. Case number 102.,Closed with monetary relief,2024-02-27,TX
+SYNTH-00987,Mortgage,Loan processing,Capital One,They charged me unauthorized fees repeatedly. Case number 987.,Closed with explanation,2024-01-05,PA
+SYNTH-00903,Checking account,Payment issue,Bank of America,Incorrect information appears on my credit report. Case number 903.,Closed with monetary relief,2024-08-03,NY
+SYNTH-00948,Student loan,Loan processing,Wells Fargo,Incorrect information appears on my credit report. Case number 948.,Closed with explanation,2024-06-12,FL
+SYNTH-00347,Mortgage,Incorrect information,Bank of America,They charged me unauthorized fees repeatedly. Case number 347.,Closed with monetary relief,2024-07-18,NY
+SYNTH-00140,Mortgage,Incorrect information,Chase,I have been trying to resolve this issue for months. Case number 140.,Closed with monetary relief,2024-06-12,NY
+SYNTH-00622,Student loan,Managing account,Capital One,Incorrect information appears on my credit report. Case number 622.,Closed with monetary relief,2024-12-19,TX
+SYNTH-00500,Personal loan,Payment issue,Capital One,Incorrect information appears on my credit report. Case number 500.,Closed with monetary relief,2024-10-08,NY
+SYNTH-00371,Personal loan,Unauthorized charges,Capital One,Incorrect information appears on my credit report. Case number 371.,Closed with explanation,2024-11-25,PA
+SYNTH-00199,Mortgage,Unauthorized charges,Citibank,They charged me unauthorized fees repeatedly. Case number 199.,Closed with monetary relief,2024-11-19,PA
+SYNTH-00688,Credit card,Incorrect information,Chase,I have been trying to resolve this issue for months. Case number 688.,Closed with monetary relief,2024-07-07,TX
+SYNTH-00585,Personal loan,Unauthorized charges,Wells Fargo,I have been trying to resolve this issue for months. Case number 585.,Closed with monetary relief,2024-11-12,TX
+SYNTH-00902,Checking account,Unauthorized charges,Wells Fargo,Incorrect information appears on my credit report. Case number 902.,Closed with explanation,2024-07-22,TX
+SYNTH-00060,Mortgage,Payment issue,Bank of America,Incorrect information appears on my credit report. Case number 60.,Closed with explanation,2024-06-14,CA
+SYNTH-00329,Credit card,Managing account,Bank of America,They charged me unauthorized fees repeatedly. Case number 329.,Closed with monetary relief,2024-02-18,TX
+SYNTH-00097,Credit card,Incorrect information,Wells Fargo,Incorrect information appears on my credit report. Case number 97.,Closed with monetary relief,2024-08-18,TX
+SYNTH-00313,Mortgage,Payment issue,Chase,I have been trying to resolve this issue for months. Case number 313.,Closed with explanation,2024-10-03,CA
+SYNTH-00975,Checking account,Incorrect information,Capital One,They charged me unauthorized fees repeatedly. Case number 975.,Closed with explanation,2024-01-14,FL
+SYNTH-00300,Checking account,Unauthorized charges,Citibank,Incorrect information appears on my credit report. Case number 300.,Closed with monetary relief,2024-12-06,CA
+SYNTH-00278,Credit card,Payment issue,Capital One,Incorrect information appears on my credit report. Case number 278.,Closed with monetary relief,2024-10-11,PA
+SYNTH-00925,Mortgage,Incorrect information,Bank of America,Incorrect information appears on my credit report. Case number 925.,Closed with explanation,2024-03-26,CA
+SYNTH-00602,Credit card,Loan processing,Capital One,They charged me unauthorized fees repeatedly. Case number 602.,Closed with explanation,2024-02-22,FL
+SYNTH-00440,Credit card,Loan processing,Bank of America,I have been trying to resolve this issue for months. Case number 440.,Closed with explanation,2024-04-02,NY
+SYNTH-00838,Credit card,Managing account,Capital One,I have been trying to resolve this issue for months. Case number 838.,Closed with explanation,2024-02-10,PA
+SYNTH-00571,Mortgage,Payment issue,Citibank,I have been trying to resolve this issue for months. Case number 571.,Closed with explanation,2024-02-26,PA
+SYNTH-00880,Mortgage,Managing account,Bank of America,I have been trying to resolve this issue for months. Case number 880.,Closed with explanation,2024-08-13,NY
+SYNTH-00262,Student loan,Loan processing,Chase,Incorrect information appears on my credit report. Case number 262.,Closed with monetary relief,2024-08-08,NY
+SYNTH-00579,Mortgage,Loan processing,Bank of America,They charged me unauthorized fees repeatedly. Case number 579.,Closed with monetary relief,2024-11-19,PA
+SYNTH-00024,Personal loan,Loan processing,Citibank,I have been trying to resolve this issue for months. Case number 24.,Closed with explanation,2024-12-10,NY
+SYNTH-00031,Mortgage,Payment issue,Chase,I have been trying to resolve this issue for months. Case number 31.,Closed with explanation,2024-04-07,PA
+SYNTH-00618,Credit card,Unauthorized charges,Wells Fargo,I have been trying to resolve this issue for months. Case number 618.,Closed with monetary relief,2024-04-04,TX
+SYNTH-00011,Credit card,Payment issue,Citibank,They charged me unauthorized fees repeatedly. Case number 11.,Closed with explanation,2024-11-11,CA
+SYNTH-00222,Mortgage,Payment issue,Capital One,They charged me unauthorized fees repeatedly. Case number 222.,Closed with explanation,2024-07-03,FL
+SYNTH-00821,Checking account,Managing account,Capital One,Incorrect information appears on my credit report. Case number 821.,Closed with monetary relief,2024-01-04,FL
+SYNTH-00297,Mortgage,Payment issue,Citibank,I have been trying to resolve this issue for months. Case number 297.,Closed with monetary relief,2024-01-01,FL
+SYNTH-00055,Student loan,Managing account,Chase,I have been trying to resolve this issue for months. Case number 55.,Closed with explanation,2024-01-22,TX
+SYNTH-00543,Checking account,Unauthorized charges,Bank of America,I have been trying to resolve this issue for months. Case number 543.,Closed with monetary relief,2024-05-15,PA
+SYNTH-00210,Credit card,Loan processing,Bank of America,They charged me unauthorized fees repeatedly. Case number 210.,Closed with monetary relief,2024-11-26,FL
+SYNTH-00605,Personal loan,Loan processing,Citibank,They charged me unauthorized fees repeatedly. Case number 605.,Closed with explanation,2024-05-21,TX
+SYNTH-00693,Personal loan,Loan processing,Chase,They charged me unauthorized fees repeatedly. Case number 693.,Closed with explanation,2024-07-04,FL
+SYNTH-00663,Personal loan,Loan processing,Chase,Incorrect information appears on my credit report. Case number 663.,Closed with explanation,2024-03-21,NY
+SYNTH-00867,Mortgage,Incorrect information,Capital One,They charged me unauthorized fees repeatedly. Case number 867.,Closed with monetary relief,2024-02-19,NY
+SYNTH-00071,Personal loan,Loan processing,Capital One,They charged me unauthorized fees repeatedly. Case number 71.,Closed with monetary relief,2024-10-27,PA
+SYNTH-00544,Personal loan,Loan processing,Chase,They charged me unauthorized fees repeatedly. Case number 544.,Closed with explanation,2024-06-16,FL
+SYNTH-00108,Credit card,Incorrect information,Capital One,They charged me unauthorized fees repeatedly. Case number 108.,Closed with explanation,2024-09-13,NY
+SYNTH-00494,Mortgage,Managing account,Capital One,They charged me unauthorized fees repeatedly. Case number 494.,Closed with explanation,2024-02-01,TX
+SYNTH-00591,Mortgage,Loan processing,Capital One,I have been trying to resolve this issue for months. Case number 591.,Closed with monetary relief,2024-04-17,FL
+SYNTH-00742,Mortgage,Incorrect information,Chase,I have been trying to resolve this issue for months. Case number 742.,Closed with explanation,2024-09-04,CA
+SYNTH-00293,Credit card,Unauthorized charges,Bank of America,I have been trying to resolve this issue for months. Case number 293.,Closed with monetary relief,2024-06-23,NY
+SYNTH-00290,Credit card,Managing account,Bank of America,They charged me unauthorized fees repeatedly. Case number 290.,Closed with explanation,2024-06-15,FL
+SYNTH-00653,Student loan,Unauthorized charges,Bank of America,They charged me unauthorized fees repeatedly. Case number 653.,Closed with monetary relief,2024-05-07,CA
+SYNTH-00040,Personal loan,Incorrect information,Citibank,Incorrect information appears on my credit report. Case number 40.,Closed with monetary relief,2024-05-07,FL
+SYNTH-00590,Credit card,Incorrect information,Chase,I have been trying to resolve this issue for months. Case number 590.,Closed with explanation,2024-06-27,NY
+SYNTH-00308,Personal loan,Unauthorized charges,Wells Fargo,Incorrect information appears on my credit report. Case number 308.,Closed with explanation,2024-09-15,PA
+SYNTH-00680,Checking account,Payment issue,Capital One,They charged me unauthorized fees repeatedly. Case number 680.,Closed with monetary relief,2024-03-25,PA
+SYNTH-00067,Credit card,Unauthorized charges,Bank of America,I have been trying to resolve this issue for months. Case number 67.,Closed with explanation,2024-08-20,CA
+SYNTH-00276,Personal loan,Incorrect information,Bank of America,I have been trying to resolve this issue for months. Case number 276.,Closed with explanation,2024-12-11,NY
+SYNTH-00068,Student loan,Payment issue,Capital One,I have been trying to resolve this issue for months. Case number 68.,Closed with monetary relief,2024-08-13,TX
+SYNTH-00319,Credit card,Payment issue,Chase,I have been trying to resolve this issue for months. Case number 319.,Closed with monetary relief,2024-04-24,CA
+SYNTH-00549,Checking account,Payment issue,Wells Fargo,I have been trying to resolve this issue for months. Case number 549.,Closed with explanation,2024-05-14,CA
+SYNTH-00999,Mortgage,Loan processing,Wells Fargo,Incorrect information appears on my credit report. Case number 999.,Closed with explanation,2024-05-06,PA
+SYNTH-00715,Credit card,Incorrect information,Capital One,I have been trying to resolve this issue for months. Case number 715.,Closed with explanation,2024-02-10,FL
+SYNTH-00754,Mortgage,Loan processing,Citibank,Incorrect information appears on my credit report. Case number 754.,Closed with explanation,2024-12-03,FL
+SYNTH-00328,Mortgage,Loan processing,Citibank,They charged me unauthorized fees repeatedly. Case number 328.,Closed with explanation,2024-07-08,FL
+SYNTH-00383,Checking account,Incorrect information,Wells Fargo,Incorrect information appears on my credit report. Case number 383.,Closed with explanation,2024-09-06,PA
+SYNTH-00452,Mortgage,Loan processing,Capital One,I have been trying to resolve this issue for months. Case number 452.,Closed with monetary relief,2024-11-05,TX
+SYNTH-00523,Checking account,Managing account,Citibank,They charged me unauthorized fees repeatedly. Case number 523.,Closed with monetary relief,2024-08-09,TX
+SYNTH-00219,Credit card,Managing account,Bank of America,Incorrect information appears on my credit report. Case number 219.,Closed with monetary relief,2024-06-18,CA
+SYNTH-00788,Mortgage,Managing account,Bank of America,Incorrect information appears on my credit report. Case number 788.,Closed with monetary relief,2024-03-17,PA
+SYNTH-00437,Mortgage,Incorrect information,Chase,They charged me unauthorized fees repeatedly. Case number 437.,Closed with monetary relief,2024-09-03,FL
+SYNTH-00765,Student loan,Managing account,Capital One,I have been trying to resolve this issue for months. Case number 765.,Closed with explanation,2024-11-14,NY
+SYNTH-00089,Mortgage,Loan processing,Wells Fargo,I have been trying to resolve this issue for months. Case number 89.,Closed with monetary relief,2024-11-20,CA
+SYNTH-00064,Checking account,Managing account,Wells Fargo,They charged me unauthorized fees repeatedly. Case number 64.,Closed with monetary relief,2024-08-15,NY
+SYNTH-00827,Credit card,Loan processing,Capital One,They charged me unauthorized fees repeatedly. Case number 827.,Closed with explanation,2024-10-04,FL
+SYNTH-00717,Credit card,Managing account,Citibank,They charged me unauthorized fees repeatedly. Case number 717.,Closed with monetary relief,2024-06-15,CA
+SYNTH-00352,Mortgage,Managing account,Wells Fargo,Incorrect information appears on my credit report. Case number 352.,Closed with explanation,2024-10-27,NY
+SYNTH-00937,Mortgage,Payment issue,Bank of America,I have been trying to resolve this issue for months. Case number 937.,Closed with monetary relief,2024-12-25,PA
+SYNTH-00257,Checking account,Unauthorized charges,Wells Fargo,They charged me unauthorized fees repeatedly. Case number 257.,Closed with explanation,2024-06-17,FL
+SYNTH-00636,Checking account,Loan processing,Bank of America,Incorrect information appears on my credit report. Case number 636.,Closed with monetary relief,2024-07-08,PA
+SYNTH-00645,Personal loan,Payment issue,Citibank,I have been trying to resolve this issue for months. Case number 645.,Closed with explanation,2024-07-20,TX
+SYNTH-00555,Student loan,Unauthorized charges,Bank of America,Incorrect information appears on my credit report. Case number 555.,Closed with explanation,2024-12-24,CA
+SYNTH-00960,Credit card,Unauthorized charges,Bank of America,I have been trying to resolve this issue for months. Case number 960.,Closed with monetary relief,2024-10-05,NY
+SYNTH-00169,Personal loan,Loan processing,Bank of America,They charged me unauthorized fees repeatedly. Case number 169.,Closed with explanation,2024-10-02,PA
+SYNTH-00918,Personal loan,Payment issue,Citibank,I have been trying to resolve this issue for months. Case number 918.,Closed with explanation,2024-10-23,CA
+SYNTH-00529,Mortgage,Loan processing,Capital One,I have been trying to resolve this issue for months. Case number 529.,Closed with monetary relief,2024-12-23,TX
+SYNTH-00824,Personal loan,Managing account,Citibank,They charged me unauthorized fees repeatedly. Case number 824.,Closed with explanation,2024-09-10,PA
+SYNTH-00986,Personal loan,Managing account,Chase,Incorrect information appears on my credit report. Case number 986.,Closed with monetary relief,2024-05-22,FL
+SYNTH-00817,Student loan,Loan processing,Citibank,They charged me unauthorized fees repeatedly. Case number 817.,Closed with explanation,2024-10-08,FL
+SYNTH-00087,Checking account,Unauthorized charges,Capital One,Incorrect information appears on my credit report. Case number 87.,Closed with explanation,2024-03-10,CA
+SYNTH-00433,Checking account,Payment issue,Wells Fargo,I have been trying to resolve this issue for months. Case number 433.,Closed with explanation,2024-02-14,CA
+SYNTH-00185,Checking account,Managing account,Chase,Incorrect information appears on my credit report. Case number 185.,Closed with explanation,2024-01-05,TX
+SYNTH-00979,Student loan,Incorrect information,Chase,They charged me unauthorized fees repeatedly. Case number 979.,Closed with explanation,2024-08-23,TX
+SYNTH-00535,Mortgage,Payment issue,Capital One,They charged me unauthorized fees repeatedly. Case number 535.,Closed with monetary relief,2024-01-28,TX
+SYNTH-00295,Student loan,Unauthorized charges,Chase,They charged me unauthorized fees repeatedly. Case number 295.,Closed with monetary relief,2024-11-02,CA
+SYNTH-00893,Checking account,Incorrect information,Citibank,They charged me unauthorized fees repeatedly. Case number 893.,Closed with monetary relief,2024-01-09,FL
+SYNTH-00426,Mortgage,Unauthorized charges,Citibank,They charged me unauthorized fees repeatedly. Case number 426.,Closed with explanation,2024-04-16,PA
+SYNTH-00714,Student loan,Loan processing,Citibank,They charged me unauthorized fees repeatedly. Case number 714.,Closed with monetary relief,2024-04-11,CA
+SYNTH-00261,Personal loan,Managing account,Wells Fargo,Incorrect information appears on my credit report. Case number 261.,Closed with monetary relief,2024-10-21,CA
+SYNTH-00238,Student loan,Payment issue,Chase,Incorrect information appears on my credit report. Case number 238.,Closed with monetary relief,2024-02-24,NY
+SYNTH-00560,Student loan,Payment issue,Chase,They charged me unauthorized fees repeatedly. Case number 560.,Closed with monetary relief,2024-07-21,TX
+SYNTH-00584,Credit card,Payment issue,Capital One,Incorrect information appears on my credit report. Case number 584.,Closed with monetary relief,2024-12-18,FL
+SYNTH-00446,Personal loan,Unauthorized charges,Citibank,They charged me unauthorized fees repeatedly. Case number 446.,Closed with monetary relief,2024-04-24,PA
+SYNTH-00868,Mortgage,Unauthorized charges,Capital One,They charged me unauthorized fees repeatedly. Case number 868.,Closed with monetary relief,2024-09-03,PA
+SYNTH-00801,Personal loan,Payment issue,Capital One,Incorrect information appears on my credit report. Case number 801.,Closed with explanation,2024-07-18,NY
+SYNTH-00600,Personal loan,Incorrect information,Capital One,I have been trying to resolve this issue for months. Case number 600.,Closed with monetary relief,2024-09-18,NY
+SYNTH-00850,Student loan,Payment issue,Capital One,They charged me unauthorized fees repeatedly. Case number 850.,Closed with explanation,2024-03-22,CA
+SYNTH-00266,Mortgage,Managing account,Citibank,I have been trying to resolve this issue for months. Case number 266.,Closed with explanation,2024-02-02,FL
+SYNTH-00996,Checking account,Incorrect information,Bank of America,I have been trying to resolve this issue for months. Case number 996.,Closed with explanation,2024-10-07,TX
+SYNTH-00530,Personal loan,Payment issue,Chase,Incorrect information appears on my credit report. Case number 530.,Closed with monetary relief,2024-03-27,PA
+SYNTH-00056,Student loan,Managing account,Chase,I have been trying to resolve this issue for months. Case number 56.,Closed with monetary relief,2024-06-21,PA
+SYNTH-00121,Credit card,Managing account,Citibank,Incorrect information appears on my credit report. Case number 121.,Closed with monetary relief,2024-05-22,NY
+SYNTH-00216,Credit card,Payment issue,Capital One,They charged me unauthorized fees repeatedly. Case number 216.,Closed with monetary relief,2024-04-18,TX
+SYNTH-00026,Checking account,Incorrect information,Capital One,Incorrect information appears on my credit report. Case number 26.,Closed with explanation,2024-10-08,CA
+SYNTH-00073,Checking account,Loan processing,Citibank,Incorrect information appears on my credit report. Case number 73.,Closed with explanation,2024-05-15,CA
+SYNTH-00045,Mortgage,Loan processing,Chase,Incorrect information appears on my credit report. Case number 45.,Closed with explanation,2024-03-09,CA
+SYNTH-00248,Credit card,Loan processing,Chase,Incorrect information appears on my credit report. Case number 248.,Closed with monetary relief,2024-04-04,TX
+SYNTH-00722,Personal loan,Loan processing,Bank of America,They charged me unauthorized fees repeatedly. Case number 722.,Closed with monetary relief,2024-11-10,TX
+SYNTH-00282,Student loan,Unauthorized charges,Capital One,Incorrect information appears on my credit report. Case number 282.,Closed with monetary relief,2024-03-27,TX
+SYNTH-00894,Credit card,Payment issue,Bank of America,They charged me unauthorized fees repeatedly. Case number 894.,Closed with explanation,2024-10-13,TX
+SYNTH-00915,Mortgage,Unauthorized charges,Bank of America,Incorrect information appears on my credit report. Case number 915.,Closed with monetary relief,2024-03-01,NY
+SYNTH-00811,Personal loan,Loan processing,Wells Fargo,They charged me unauthorized fees repeatedly. Case number 811.,Closed with monetary relief,2024-01-03,FL
+SYNTH-00245,Checking account,Payment issue,Bank of America,Incorrect information appears on my credit report. Case number 245.,Closed with explanation,2024-09-12,NY
+SYNTH-00823,Checking account,Payment issue,Citibank,I have been trying to resolve this issue for months. Case number 823.,Closed with explanation,2024-08-05,NY
+SYNTH-00322,Student loan,Payment issue,Wells Fargo,Incorrect information appears on my credit report. Case number 322.,Closed with explanation,2024-01-05,PA
+SYNTH-00644,Personal loan,Loan processing,Bank of America,Incorrect information appears on my credit report. Case number 644.,Closed with monetary relief,2024-02-07,NY
+SYNTH-00159,Personal loan,Payment issue,Capital One,Incorrect information appears on my credit report. Case number 159.,Closed with explanation,2024-07-21,CA
+SYNTH-00978,Personal loan,Payment issue,Wells Fargo,I have been trying to resolve this issue for months. Case number 978.,Closed with explanation,2024-03-09,FL
+SYNTH-00430,Student loan,Loan processing,Chase,Incorrect information appears on my credit report. Case number 430.,Closed with monetary relief,2024-07-23,NY
+SYNTH-00942,Mortgage,Payment issue,Citibank,I have been trying to resolve this issue for months. Case number 942.,Closed with monetary relief,2024-03-26,FL
+SYNTH-00463,Mortgage,Unauthorized charges,Capital One,They charged me unauthorized fees repeatedly. Case number 463.,Closed with monetary relief,2024-08-01,NY
+SYNTH-00310,Personal loan,Loan processing,Wells Fargo,I have been trying to resolve this issue for months. Case number 310.,Closed with monetary relief,2024-09-15,CA
+SYNTH-00698,Student loan,Managing account,Citibank,They charged me unauthorized fees repeatedly. Case number 698.,Closed with monetary relief,2024-07-06,TX
+SYNTH-00061,Checking account,Loan processing,Chase,Incorrect information appears on my credit report. Case number 61.,Closed with explanation,2024-12-10,PA
+SYNTH-00885,Checking account,Loan processing,Citibank,They charged me unauthorized fees repeatedly. Case number 885.,Closed with explanation,2024-12-22,PA
+SYNTH-00596,Checking account,Loan processing,Chase,I have been trying to resolve this issue for months. Case number 596.,Closed with explanation,2024-10-28,FL
+SYNTH-00768,Mortgage,Unauthorized charges,Wells Fargo,Incorrect information appears on my credit report. Case number 768.,Closed with monetary relief,2024-03-25,CA
+SYNTH-00650,Mortgage,Payment issue,Wells Fargo,Incorrect information appears on my credit report. Case number 650.,Closed with explanation,2024-11-21,NY
+SYNTH-00651,Personal loan,Payment issue,Chase,I have been trying to resolve this issue for months. Case number 651.,Closed with monetary relief,2024-04-26,NY
+SYNTH-00866,Student loan,Unauthorized charges,Capital One,They charged me unauthorized fees repeatedly. Case number 866.,Closed with monetary relief,2024-09-19,FL
+SYNTH-00669,Credit card,Loan processing,Wells Fargo,They charged me unauthorized fees repeatedly. Case number 669.,Closed with monetary relief,2024-10-01,FL
+SYNTH-00299,Personal loan,Payment issue,Wells Fargo,Incorrect information appears on my credit report. Case number 299.,Closed with monetary relief,2024-05-07,CA
+SYNTH-00690,Personal loan,Managing account,Citibank,They charged me unauthorized fees repeatedly. Case number 690.,Closed with monetary relief,2024-09-28,PA
+SYNTH-00315,Checking account,Payment issue,Wells Fargo,I have been trying to resolve this issue for months. Case number 315.,Closed with monetary relief,2024-06-13,NY
+SYNTH-00311,Credit card,Loan processing,Citibank,I have been trying to resolve this issue for months. Case number 311.,Closed with monetary relief,2024-01-15,TX
+SYNTH-00362,Personal loan,Loan processing,Chase,They charged me unauthorized fees repeatedly. Case number 362.,Closed with explanation,2024-05-14,NY
+SYNTH-00480,Credit card,Payment issue,Chase,Incorrect information appears on my credit report. Case number 480.,Closed with monetary relief,2024-03-06,CA
+SYNTH-00111,Credit card,Unauthorized charges,Wells Fargo,Incorrect information appears on my credit report. Case number 111.,Closed with explanation,2024-03-01,NY
+SYNTH-00990,Mortgage,Unauthorized charges,Bank of America,They charged me unauthorized fees repeatedly. Case number 990.,Closed with monetary relief,2024-05-23,FL
+SYNTH-00487,Student loan,Loan processing,Wells Fargo,I have been trying to resolve this issue for months. Case number 487.,Closed with monetary relief,2024-02-26,CA
+SYNTH-00364,Credit card,Managing account,Chase,They charged me unauthorized fees repeatedly. Case number 364.,Closed with monetary relief,2024-03-03,TX
+SYNTH-00255,Student loan,Payment issue,Capital One,They charged me unauthorized fees repeatedly. Case number 255.,Closed with explanation,2024-09-21,PA
+SYNTH-00260,Credit card,Loan processing,Capital One,They charged me unauthorized fees repeatedly. Case number 260.,Closed with explanation,2024-01-03,CA
+SYNTH-00803,Credit card,Incorrect information,Citibank,They charged me unauthorized fees repeatedly. Case number 803.,Closed with monetary relief,2024-12-25,NY
+SYNTH-00678,Credit card,Unauthorized charges,Capital One,They charged me unauthorized fees repeatedly. Case number 678.,Closed with explanation,2024-02-04,CA
+SYNTH-00495,Credit card,Managing account,Bank of America,They charged me unauthorized fees repeatedly. Case number 495.,Closed with explanation,2024-05-26,NY
+SYNTH-00671,Mortgage,Loan processing,Chase,Incorrect information appears on my credit report. Case number 671.,Closed with monetary relief,2024-12-15,NY
+SYNTH-00378,Checking account,Unauthorized charges,Capital One,Incorrect information appears on my credit report. Case number 378.,Closed with explanation,2024-08-12,NY
+SYNTH-00527,Credit card,Unauthorized charges,Capital One,I have been trying to resolve this issue for months. Case number 527.,Closed with explanation,2024-10-13,FL
+SYNTH-00846,Student loan,Payment issue,Wells Fargo,They charged me unauthorized fees repeatedly. Case number 846.,Closed with monetary relief,2024-10-19,TX
+SYNTH-00138,Personal loan,Incorrect information,Capital One,I have been trying to resolve this issue for months. Case number 138.,Closed with explanation,2024-11-22,FL
+SYNTH-00356,Student loan,Payment issue,Wells Fargo,They charged me unauthorized fees repeatedly. Case number 356.,Closed with monetary relief,2024-07-06,PA
+SYNTH-00366,Credit card,Payment issue,Capital One,Incorrect information appears on my credit report. Case number 366.,Closed with explanation,2024-08-04,TX
+SYNTH-00943,Student loan,Incorrect information,Bank of America,They charged me unauthorized fees repeatedly. Case number 943.,Closed with monetary relief,2024-09-02,FL
+SYNTH-00750,Personal loan,Incorrect information,Capital One,I have been trying to resolve this issue for months. Case number 750.,Closed with monetary relief,2024-01-10,TX
+SYNTH-00949,Personal loan,Payment issue,Chase,I have been trying to resolve this issue for months. Case number 949.,Closed with explanation,2024-06-12,NY
+SYNTH-00830,Mortgage,Unauthorized charges,Bank of America,They charged me unauthorized fees repeatedly. Case number 830.,Closed with explanation,2024-08-17,TX
+SYNTH-00657,Credit card,Payment issue,Capital One,Incorrect information appears on my credit report. Case number 657.,Closed with monetary relief,2024-03-12,PA
+SYNTH-00200,Checking account,Managing account,Wells Fargo,They charged me unauthorized fees repeatedly. Case number 200.,Closed with explanation,2024-08-15,FL
+SYNTH-00214,Personal loan,Incorrect information,Chase,Incorrect information appears on my credit report. Case number 214.,Closed with explanation,2024-10-13,TX
+SYNTH-00409,Student loan,Managing account,Capital One,I have been trying to resolve this issue for months. Case number 409.,Closed with explanation,2024-12-15,FL
+SYNTH-00333,Checking account,Managing account,Citibank,They charged me unauthorized fees repeatedly. Case number 333.,Closed with monetary relief,2024-05-09,FL
+SYNTH-00209,Credit card,Managing account,Bank of America,Incorrect information appears on my credit report. Case number 209.,Closed with explanation,2024-06-10,NY
+SYNTH-00614,Mortgage,Payment issue,Wells Fargo,Incorrect information appears on my credit report. Case number 614.,Closed with explanation,2024-03-24,NY
+SYNTH-00079,Personal loan,Unauthorized charges,Citibank,I have been trying to resolve this issue for months. Case number 79.,Closed with monetary relief,2024-07-16,CA

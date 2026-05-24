@@ -1,0 +1,50 @@
+{
+  "baseline": {
+    "roc_auc": 0.889,
+    "pr_auc": 0.5073,
+    "f1": 0.5526,
+    "precision": 0.493,
+    "recall": 0.6285,
+    "threshold": 0.7,
+    "run_id": "4208c933a5db44549e0dca122bd83444",
+    "confusion_matrix": [
+      [
+        7301,
+        684
+      ],
+      [
+        393,
+        665
+      ]
+    ]
+  },
+  "improved": {
+    "roc_auc": 0.9324,
+    "pr_auc": 0.6196,
+    "f1": 0.6376,
+    "precision": 0.5559,
+    "recall": 0.7476,
+    "threshold": 0.69,
+    "run_id": "92cb6f7153304b258229ef9cfd29164b",
+    "confusion_matrix": [
+      [
+        7353,
+        632
+      ],
+      [
+        267,
+        791
+      ]
+    ]
+  },
+  "gate": {
+    "passed": true,
+    "pr_auc_delta": 0.1123,
+    "f1_delta": 0.085,
+    "required_pr_auc_delta": 0.03,
+    "required_f1_delta_min": -0.02,
+    "decision": "PROMOTED",
+    "timestamp": "2026-05-24T23:05:26.733311"
+  },
+  "promoted_version": "v20260524_2305"
+}
