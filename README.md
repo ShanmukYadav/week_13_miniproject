@@ -21,9 +21,3 @@ data/
   samples/       # Very small samples for CI (100 rows)
   README.md
 ```
-
-## Rules
-- Never commit full datasets to Git
-- Never commit raw narratives with PII
-- Always use the download script — no manual uploads
-- Samples in Git are capped at 200 rows
